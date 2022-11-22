@@ -161,17 +161,31 @@ button {
 @media all and (max-width: 480px) {
   h1 {
     font-size: 50px;
+    padding: 00px 10px 0px;
   }
+
+  .icon {
+    width: 170px;
+  }
+  
 
   .description {
     font-size: 14px;
     max-width: 380px;
-    padding: 20px 15px;
+    padding: 10px 15px 20px;
+    gap: 0px;
+  }
+
+  button {
+    width: 100px;
+    height: 100px;
+    font-size: 14px;
   }
 
   .advice_container {
-    padding: 30px 10px 20px;
-    gap: 10px;
+    padding: 30px 10px 10px;
+    gap: 5px;
+    font-size: 16px;
   }
 
   .advice {
@@ -182,22 +196,22 @@ button {
   }
 
   .icon_two {
-    bottom: 0px;
+    bottom: -10px;
     left: -30px;
   }
 
   .icon_two img {
-    width: 120px;
+    width: 100px;
   }
 
   
   .icon_three {
-    top: 60px;
+    top: 50px;
     right: -10px;
   }
 
   .icon_three img {
-    width: 70px;
+    width: 60px;
   }
   
 }
