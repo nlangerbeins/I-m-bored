@@ -29,6 +29,10 @@ h1 {
   padding: 30px 10px 10px;
 }
 
+.icon {
+  width: 300px;
+}
+
 .description {
   font-family: elza, sans-serif;
   font-weight: 300;
@@ -135,7 +139,13 @@ button {
 @media all and (max-width: 600px) {
   h1 {
     font-size: 50px;
+    padding: 10px 10px 10px;
   }
+
+  .icon {
+    width: 250px;
+  }
+  
 
   .description {
     font-size: 16px;
@@ -155,13 +165,13 @@ button {
 
   .description {
     font-size: 14px;
-    gap: 10px;
     max-width: 380px;
-    padding: 30px 15px;
+    padding: 20px 15px;
   }
 
   .advice_container {
-    padding: 30px 10px 40px;
+    padding: 30px 10px 20px;
+    gap: 10px;
   }
 
   .advice {

@@ -24,7 +24,7 @@ function App() {
       <div className='container'>
         <h1>I'm bored</h1>
         <div className='img_container'>
-          <img className='icon' src={iconOne} width="300px" alt='girl'/>
+          <img className='icon' src={iconOne} alt='girl'/>
         </div>
         <div className='description'>
           <p>This website is designed to help you to find some activities.</p>
