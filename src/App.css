@@ -165,14 +165,14 @@ button {
   }
 
   .icon {
-    width: 170px;
+    width: 190px;
   }
   
 
   .description {
     font-size: 14px;
     max-width: 380px;
-    padding: 10px 15px 20px;
+    padding: 20px 15px 40px;
     gap: 0px;
   }
 
@@ -183,8 +183,8 @@ button {
   }
 
   .advice_container {
-    padding: 30px 10px 10px;
-    gap: 5px;
+    padding: 30px 10px 20px;
+    gap: 10px;
     font-size: 16px;
   }
 
@@ -201,7 +201,7 @@ button {
   }
 
   .icon_two img {
-    width: 100px;
+    width: 110px;
   }
 
   
@@ -211,7 +211,7 @@ button {
   }
 
   .icon_three img {
-    width: 60px;
+    width: 65px;
   }
   
 }
