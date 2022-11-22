@@ -39,10 +39,10 @@ function App() {
             <p className='advice'>{advice}</p>
           </div>
           <div className='icon_two'>
-            <img src={iconTwo} width="150px" alt='girl'/>
+            <img src={iconTwo}  alt='girl'/>
           </div>
           <div className='icon_three'>
-            <img src={iconThree} width="80px" alt='girl'/>
+            <img src={iconThree} alt='girl'/>
           </div>
         </div>
       </div>
