@@ -4,13 +4,8 @@
   box-sizing: border-box;
 }
 
-:root {
-  --doc-height: 100%;
-}
-
 html, body {
-  height: 100vh;
-  height: var(--doc-height);
+  height: -webkit-fill-available;
 }
 
 body {
@@ -22,6 +17,7 @@ body {
   min-height: 100vh;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
 .container {
@@ -141,6 +137,10 @@ button {
   font-weight: 300;
   font-style: normal;
   font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .footer span {
