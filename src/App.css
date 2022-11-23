@@ -91,6 +91,23 @@ button {
   gap: 20px;
 }
 
+.advice {
+  width: 450px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 40px;
+  background-color: #E3E3E3;
+  color: #000;
+  border-radius: 45px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-family: chaparral-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
 .icon_two {
   position: absolute;
   bottom: 0px;
@@ -109,21 +126,6 @@ button {
 
 .icon_three img {
   width: 80px;
-}
-
-.advice {
-  width: 450px;
-  height: 130px;
-  padding: 50px;
-  background-color: #E3E3E3;
-  color: #000;
-  border-radius: 45px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  font-family: chaparral-pro, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
-  cursor: pointer;
 }
 
 .footer {
@@ -194,13 +196,12 @@ button {
   .advice {
     max-width: 300px;
     height: 110px;
-    padding: 35px;
     font-size: 18px;
   }
 
   .icon_two {
-    bottom: -10px;
-    left: -30px;
+    bottom: -15px;
+    left: -35px;
   }
 
   .icon_two img {
@@ -209,8 +210,8 @@ button {
 
   
   .icon_three {
-    top: 50px;
-    right: -10px;
+    top: 45px;
+    right: -15px;
   }
 
   .icon_three img {
