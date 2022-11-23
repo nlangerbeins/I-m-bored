@@ -46,7 +46,6 @@ h1 {
   font-family: elza, sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 18px;
   text-align: center;
   color: #fff;
   padding: 20px 15px 50px;
@@ -137,10 +136,6 @@ button {
   font-weight: 300;
   font-style: normal;
   font-size: 14px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
 }
 
 .footer span {
@@ -158,11 +153,6 @@ button {
   .icon {
     width: 250px;
   }
-  
-
-  .description {
-    font-size: 16px;
-  }
 
   button {
     width: 110px;
@@ -174,7 +164,7 @@ button {
 @media all and (max-width: 480px) {
   h1 {
     font-size: 50px;
-    padding: 00px 10px 0px;
+    padding: 0px 10px 0px;
   }
 
   .icon {
@@ -185,7 +175,7 @@ button {
   .description {
     font-size: 14px;
     max-width: 380px;
-    padding: 20px 15px 40px;
+    padding: 10px 15px 40px;
     gap: 0px;
   }
 
@@ -203,8 +193,8 @@ button {
 
   .advice {
     max-width: 300px;
-    height: 120px;
-    padding: 40px;
+    height: 110px;
+    padding: 35px;
     font-size: 18px;
   }
 
