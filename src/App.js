@@ -49,12 +49,12 @@ function App() {
         <div className='advice_wrapper'>
           <div className='advice_container'>
             <p data-aos="fade-down" data-aos-duration="1100" data-aos-delay="1100">Here is our advice for you:</p>
-            <p className='advice' data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1400">{advice}</p>
+            <p className='advice' data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1400" data-aos-once="true">{advice}</p>
           </div>
-          <div className='icon_two' data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1400">
+          <div className='icon_two' data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1400" data-aos-once="true">
             <img src={iconTwo} className={shake ? `shake`: null}  alt='girl'/>
           </div>
-          <div className='icon_three' data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1400">
+          <div className='icon_three' data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1400" data-aos-once="true">
             <img src={iconThree} className={shake ? `shake`: null} alt='girl'/>
           </div>
         </div>
