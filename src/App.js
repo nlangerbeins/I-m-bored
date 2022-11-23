@@ -19,6 +19,13 @@ function App() {
     getAdvice();
   }, [])
 
+  const documentHeight = () => {
+    const doc = document.documentElement
+    doc.style.setProperty('--doc-height', `${window.innerHeight}px`)
+   }
+   window.addEventListener('resize', documentHeight)
+   documentHeight()
+
   return (
     <div className='wrapper'>
       <div className='container'>
@@ -47,7 +54,7 @@ function App() {
         </div>
       </div>
       <div className='footer'>
-          <p>by <span>nlangerbeins</span></p>
+          <p> created by <span>nlangerbeins</span></p>
         </div>
     </div>
   );

@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+:root {
+  --doc-height: 100%;
+}
+
+html, body {
+  height: 100vh;
+  height: var(--doc-height);
+}
+
+body {
+  background-color: #ef4754;
+}
+
 .wrapper {
   background: url('./bg.jpg');
   min-height: 100vh;
